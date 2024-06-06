@@ -1,18 +1,30 @@
+@use 'variaveis';
+
 .menu-lateral {
-    width: 300px;
+    width: 80px;
     height: 100%;
-    background-color: #202020;
+    background-color: variaveis.$color-neutral-0;
     padding: 40px 0px 40px 1%;
     box-shadow: 3px 0 0 #ff0077;
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 998;
+    overflow: hidden;
+    z-index: 1000;
+}
+
+.menu-lateral:hover {
+    width: 300px;
+    transition: 0.5s;
+}
+
+.menu-lateral:not(:hover) {
+    transition: 0.5s;
 }
 
 .btn-expandir {
     width: 100%;
-    padding-left: 10px;
+    padding-left: 16px;
 }
 
 .btn-expandir > i {
@@ -52,4 +64,5 @@ ul li.item-menu a .txt-link {
 
 ul li.item-menu a .icon > i {
     font-size: 30px;
+    margin-left: 10px;
 }

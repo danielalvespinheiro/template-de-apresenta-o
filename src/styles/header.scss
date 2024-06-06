@@ -1,8 +1,12 @@
 @use 'variaveis';
 
+.background-container {
+    background-color: variaveis.$color-neutral-0;
+    box-shadow: 0 3px 0 variaveis.$color-boxshadow;
+}
+
 .cabecalho{
     width: 100%;
-    background-color: variaveis.$color-neutral-0;
 }
 
 .cabecalho-content{

@@ -4,7 +4,7 @@ footer {
     width: 100%;
     color: variaveis.$color-neutral-40;
     position: absolute;
-    background-color: variaveis.$color-neutral-10;
+    background-color: variaveis.$color-neutral-0;
     z-index: 999; /* Para garantir que o rodapé esteja sempre acima do conteúdo */
     padding: 1.5rem 2.0rem;
 }
@@ -14,10 +14,11 @@ footer {
 }
 
 #footer_content {
-    background-color: variaveis.$color-neutral-10;
+    background-color: variaveis.$color-neutral-0;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     padding: 1.5rem 2.0rem;
+    box-shadow: 3px 0px 0px variaveis.$color-boxshadow;
 }
 
 #footer_contacts h1 {
@@ -61,12 +62,8 @@ footer {
     background-color: #25d366;
 }
 
-#github {
-    background-color: #000;
-}
-
 #github .github-icon {
-    font-size: 2rem; /* Aumenta o tamanho do ícone do GitHub */
+    font-size: 2.5rem; /* Aumenta o tamanho do ícone do GitHub */
 }
 
 .footer-list {
