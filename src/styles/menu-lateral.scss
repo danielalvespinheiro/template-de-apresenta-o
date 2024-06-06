@@ -1,0 +1,55 @@
+.menu-lateral {
+    width: 300px;
+    height: 100%;
+    background-color: #202020;
+    padding: 40px 0px 40px 1%;
+    box-shadow: 3px 0 0 #ff0077;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 998;
+}
+
+.btn-expandir {
+    width: 100%;
+    padding-left: 10px;
+}
+
+.btn-expandir > i {
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    height: 100%;
+    line-height: 40px;
+    padding: 0;
+}
+
+ul li.item-menu:hover {
+    background: #ff0077;
+    transition: 0.5s;
+}
+
+ul li.item-menu:not(:hover) {
+    transition: 0.5s;
+}
+
+ul li.item-menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 4%;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+ul li.item-menu a .txt-link {
+    margin-left: 40px;
+}
+
+ul li.item-menu a .icon > i {
+    font-size: 30px;
+}
