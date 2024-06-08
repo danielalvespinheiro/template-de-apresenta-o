@@ -40,6 +40,10 @@ ul {
     padding: 0;
 }
 
+ul li .ativo {
+    display: none;
+}
+
 ul li.item-menu:hover {
     background: #ff0077;
     transition: 0.5s;
