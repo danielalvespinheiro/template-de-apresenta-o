@@ -19,6 +19,7 @@ footer {
     grid-template-columns: repeat(4, 1fr);
     padding: 1.5rem 2.0rem;
     box-shadow: 3px 0px 0px variaveis.$color-boxshadow;
+    justify-content: center;
 }
 
 #footer_contacts h1 {
